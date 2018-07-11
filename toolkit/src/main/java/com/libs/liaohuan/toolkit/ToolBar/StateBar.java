@@ -35,7 +35,8 @@ public class StateBar {
             | View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN
             | View.SYSTEM_UI_FLAG_HIDE_NAVIGATION;
 
-    /**稳定全屏，全屏UI位置不变和android:fitsSystemWindows配合使用生效<p>上拉显示状态栏会自动隐藏*/
+    /**
+     *  稳定全屏，全屏UI位置不变和android:fitsSystemWindows配合使用生效<p>上拉显示状态栏会自动隐藏*/
     public static  final  int SYSTEM_UI_FLAG_STABLE_SURE_FULLSCREEN = View.SYSTEM_UI_FLAG_LOW_PROFILE
             | View.SYSTEM_UI_FLAG_FULLSCREEN
             | View.SYSTEM_UI_FLAG_LAYOUT_STABLE
